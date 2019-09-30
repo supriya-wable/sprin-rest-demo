@@ -12,4 +12,10 @@ public class DemoController
 		return "Welcome to Spring Rest Programming...";		
 	}
 	
+	@RequestMapping("/greet1")
+	public String greet1()
+	{
+		return "This is just for testing commit on github...";
+	}
+	
 }
